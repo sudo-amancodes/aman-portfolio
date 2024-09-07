@@ -1,13 +1,13 @@
 import Link from 'next/link';
-import { Button } from './ui/Button';
+import { Button } from './ui/button';
 
 // components
 import Nav from './Nav';
-import MobileNav from './ui/MobileNav';
+import MobileNav from './MobileNav';
 
 const Header = () => {
     return (
-        <header className='py-8 xl:py-12 text-white'>
+        <header className='py-8 xl:py-8 text-white'>
             <div className="container mx-auto flex justify-between items-center">
                 {/* logo */}
                 <Link href="/">
